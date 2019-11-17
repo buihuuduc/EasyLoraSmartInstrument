@@ -19,10 +19,10 @@
 #if defined(USE_CUSTOM_BOARD)
 
   // Custom board configuration
-  #define BOARD_BUTTON_PIN            34                     // Pin where user button is attached
+  #define BOARD_BUTTON_PIN            34                     // Easy Lora Mapping pin 34 BTN
   #define BOARD_BUTTON_ACTIVE_LOW     true                  // true if button is "active-low"
 
-  #define BOARD_LED_PIN               14                    // Set LED pin - if you have a single-color LED attached
+  #define BOARD_LED_PIN               14                    // Easy Lora Mapping pin 14 for single LED GREEN
   //#define BOARD_LED_PIN_R           27                    // Set R,G,B pins - if your LED is PWM RGB 
   //#define BOARD_LED_PIN_G           26
   //#define BOARD_LED_PIN_B           25
