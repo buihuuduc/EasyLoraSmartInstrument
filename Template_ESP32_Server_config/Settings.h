@@ -5,8 +5,8 @@
 #define BOARD_FIRMWARE_VERSION        "1.0.1"
 #define BOARD_HARDWARE_VERSION        "1.0.0"
 
-#define BOARD_NAME                    "Product Name"        // Name of your product. Should match App Export request info.
-#define BOARD_VENDOR                  "Company Name"        // Name of your company. Should match App Export request info.
+#define BOARD_NAME                    "EasyLoraNode"        // Name of your product. Should match App Export request info.
+#define BOARD_VENDOR                  "Phuong Nghi Automation"        // Name of your company. Should match App Export request info.
 #define BOARD_TEMPLATE_ID             "TMPL0000"            // ID of the Tile Template. Can be found in Tile Template Settings
 
 #define PRODUCT_WIFI_SSID             "Easy Lora"         // Name of the device, to be displayed during configuration. Should match export request info.
