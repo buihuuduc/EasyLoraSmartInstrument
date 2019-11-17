@@ -31,28 +31,6 @@ char msg[50];
 int value = 0;
 boolean gpioStatus[] = {false,false,false};
 uint16_t gpioStatus_s[3];
-void setupSpeaker()
-{
-  // speaker
-  ledcSetup(SPK_CHANNEL, SPK_FREQ, SPK_RESOLUTION);
-  ledcAttachPin(SPK, SPK_CHANNEL);   
-  onSpeaker();
-  delay(100);
-  offSpeaker(); 
-}
-
-void onSpeaker()
-{
-  Serial.println("On Speaker");
-  //ledcWriteTone(SPK_CHANNEL, 2400);
-  ledcWrite(SPK_CHANNEL, SPK_FREQ);
-}
-
-void offSpeaker()
-{
-  Serial.println("Off Speaker");
-  ledcWrite(SPK_CHANNEL, 0);
-}
 
 void setup() {
   // put your setup code here, to run once:
