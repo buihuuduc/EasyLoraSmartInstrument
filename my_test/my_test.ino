@@ -4,6 +4,5 @@ void setup() {
 }
 
 void loop() {
-  // xoa dong nay
-
+  // chay vong loop
 }
